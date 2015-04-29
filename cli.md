@@ -28,7 +28,13 @@ Windows에서 CLI를 만드는 방벙은 아래와 같다. ( Windows에서도 �
 Command Line(cmd.exe)에서만 사용한다면 Sublime Text의 CLI를 가장 편하게 만드는 방법은 DOSKEY의 매크로를 이용하는 방법이라 생각한다. 설정은 아래와 같다.
 
 ```batch
-doskey subl=c:\bin\app\Sublime3\sublime_text.exe
+doskey subl=c:\bin\app\Sublime3\sublime_text.exe $*
+```
+
+참고로 끝부분의 $*는 아래에서 Cool.txt와 subl뒤에 전달되는 모든 문자열을 전달하기 위한 것이다.
+
+```batch
+subl Cool.txt
 ```
 
 이게 끝이다. 얼마나 간단하고 아름다운가! 물론 매번 실행해야 하는 단점이 있지만 그건 다음 Tip으로 넘기고. 이번장은 여기까지.
