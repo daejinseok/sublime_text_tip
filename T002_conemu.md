@@ -20,7 +20,7 @@ cmd.exe /k %ConEmuBaseDir%\CmdInit.cmd
 
 Tip001에서 사용된 매크로를 my_macro라는 파일로 작성하자, 파일위치는 어디든 상관없지만, ConEmu가 설치된 곳에 하면 좋치 않을까 생각한다.
 
-```
+```batch
 subl=c:\bin\app\Sublime3\sublime_text.exe $*
 ```
 
