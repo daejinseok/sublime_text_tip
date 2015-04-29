@@ -6,7 +6,7 @@ Sublime Text(이하 Sublime) 3 Build 3066에서 subl.exe가 추가되었지만 �
 
 UNIX기반 시스템들은 아래와 같이 bin디렉토리에 링크를 생성하여 CLI를 만든다. ( 아래는 OSX일 경우 )
 
-```sh
+```dos
 ln –s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 /usr/local/bin/subl
 ```
