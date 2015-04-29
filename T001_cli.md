@@ -1,4 +1,4 @@
-# Windows에서 CLI만들기
+# Tip001. Windows에서 CLI만들기
 
 Sublime Text(이하 Sublime) 3 Build 3066에서 subl.exe가 추가되었지만 스마트한 Sublime와 달리 subl.exe 실행시 잠깐 검은창이 실행되었다가 사라지는 것을 볼 수 있다. 물론 subl.exe로 인해 Sublime디렉토리를 path경로에 추가하면 CLI가 구성되지만, 더 낳은 대안이라 생각되는 Tip를 적어본다.
 
