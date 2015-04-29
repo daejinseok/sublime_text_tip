@@ -18,3 +18,18 @@ cmd.exe /k %ConEmuBaseDir%\CmdInit.cmd
 
 ## DOSKEY 매크로 추가
 
+Tip001에서 사용된 매크로를 my_macro라는 파일로 작성하자, 파일위치는 어디든 상관없지만, ConEmu가 설치된 곳에 하면 좋치 않을까 생각한다.
+
+```
+subl=c:\bin\app\Sublime3\sublime_text.exe $*
+```
+
+그리고 CmdInit.cmd에 아래와 같이 추가하면 끝.
+
+```batch
+doskey /macrofile="%ConEmuBaseDir%\..\my_macro"
+```
+
+이제 ConEmu상에서는 어디든 subl를 치면 Sublime이 실행되는 것을 볼 수 있다.
+
+다음 Tip은 예정에 없음. 의견 바람 ㅎㅎ
