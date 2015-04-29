@@ -14,7 +14,7 @@ ConEmu의 설정에서 Startup부분을 살펴보면 보통 아래와 같이 되
 cmd.exe /k %ConEmuBaseDir%\CmdInit.cmd
 ```
 
-즉 CmdInit.cmd에 command line에서 사용할 각종 설정을 추가하면 된다.
+즉 매번 수행되어야 할 초기 스크립트를 CmdInit.cmd에 추가하면 된다.
 
 ## DOSKEY 매크로 추가
 
@@ -24,7 +24,7 @@ Tip001에서 사용된 매크로를 my_macro라는 파일로 작성하자, 파�
 subl=c:\bin\app\Sublime3\sublime_text.exe $*
 ```
 
-그리고 CmdInit.cmd에 아래와 같이 추가하면 끝.
+그리고 CmdInit.cmd 아래와 같이 추가하면 끝.
 
 ```batch
 doskey /macrofile="%ConEmuBaseDir%\..\my_macro"
