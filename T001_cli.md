@@ -41,4 +41,4 @@ doskey subl=c:\bin\app\Sublime3\sublime_text.exe $*
 
 참고로 저는 subl보다 sl를 더 선호 한다. 에디터를 실행하기 위해 두글자 이상입력해야 한다는 것은 인생을 낭비하고 있다는 생각이 든다.
 
-참고2 Command Line외에서는 TypeAndRun, Launchy 같은 어플리케이션 런쳐를 사용하자. 개인적으로 작성하여 사용하는  [iGo](https://github.com/daejinseok/iGo) 것도 소개해 본다. ^^
+참고2 Command Line외에서는 TypeAndRun, Launchy 같은 어플리케이션 런쳐를 사용하자. 개인적으로 작성하여 사용하는  [iGo](https://github.com/daejinseok/iGo)라는 것도 소개해 본다. ^^
