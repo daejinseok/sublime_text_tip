@@ -11,5 +11,11 @@ Sublime Text is a versatile editor for programmers, but you don’t need to be o
 Sublime Text는 프로그래머를 위한 기능이 다양한 에디터이지만 그 기능만 사용할 필요도 없고, 효과적인 툴로 만들기 위해 많은 설정을 할 필요도 없다. 여러분(Hackers)이 모든 것을 수정하고 확장하는 것을 환영한다.
 (제가 느낀의미는 이러한데, 혹시 틀렸다면 피드백 부탁드립니다. -_-;;)
 
-## 무엇을 만드나?
+## 그래서 어떤 명령을 추가하나?
 
+시작은 "Hello Sublime Text!" 해보자.
+
+
+## hello.py를 어디에 작성해야 되나.
+
+명령목록(Ctrl+Shift+P)를 눌러 
