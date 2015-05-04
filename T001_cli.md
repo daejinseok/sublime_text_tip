@@ -19,14 +19,14 @@ ln –s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
 
 ## 일반적인 Windows CLI
 
-Windows CLI를 만드는 방벙은 보통 아래와 같다. (Windows에서도 링크 및 하드링크가 있지만 UNIX처럼 동작하지 않으며, MSDN메뉴얼에서나 볼 수 있으며, 실제사용하는 분은 보지 못했다. 사용하는 분있으면 제보바람. )
+Windows CLI를 만드는 방벙은 보통 아래와 같다.
 
 1. sublime text디렉토리를 path경로에 추가하는 방법
 2. batch파일을( 혹은 [ exe](https://scotch.io/tutorials/open-sublime-text-from-the-command-line-using-subl-exe-windows)를 만들거나.. ) 작성하여 path가 설정된 디렉토리에 복사하는 방법
 
 1번은 많은 어플리케이션이 사용하는 방법이지만, path가 복잡해진다는 단점이 있다. 가끔 특정 어플리케이션은 자신의 경로를 가장 앞부분에 설정하여 해당 어플리케이션만 실행되고 다른 어플리케이션의 정상적인 실행을 막는 원인이 되기도 한다.
 
-2번은 특별한 단점은 없지만, subl.exe같은 검은창이 잠시 뜨거나, 또는 실행시 경로위치에 민감한 어플리케이션은 pushd, popd로 약간의 스크립트 작업을 해줘야 한다.
+2번은 기능상 단점은 없지만, subl.exe같이 검은창이 잠시 뜨거나, 또는 실행시 경로위치에 민감한 어플리케이션은 pushd, popd로 실행시 경로를 유지할 수 있도록 작업을 해줘야 한다.
 
 
 ## DOSKEY
