@@ -18,4 +18,7 @@ Sublime Text는 프로그래머를 위한 기능이 다양한 에디터이지만
 
 ## hello.py를 어디에 작성해야 되나.
 
-명령목록(Ctrl+Shift+P)를 눌러 
+명령목록(Ctrl+Shift+P)를 눌러 "Browse Package"를 입력하면 Sublime Text에서 사용하는 각종 패키지, 플러그인가 나오며 특히 User폴더에는 현재 에디터의 설정을 담고 있는 "Preferences.sublime-settings"가 나온다.
+
+hello.py의 위치는 Packages폴더 아래의 어디든 상관없지만, Hello폴더를 만들고 아래와 같이 hello.py를 작성하자.
+
