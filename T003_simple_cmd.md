@@ -22,3 +22,13 @@ Sublime Text는 프로그래머를 위한 기능이 다양한 에디터이지만
 
 hello.py의 위치는 Packages폴더 아래의 어디든 상관없지만, Hello폴더를 만들고 아래와 같이 hello.py를 작성하자.
 
+```
+...\Sublime3\Data\Packages\Hello\hello.py
+```
+
+```python
+class HelloSublime(sublime_plugin.TextCommand):
+    
+    def run(self, edit):
+        sublime.status_message('Hello Sublime Text')
+```
