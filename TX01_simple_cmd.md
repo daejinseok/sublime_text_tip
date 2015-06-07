@@ -1,4 +1,4 @@
-# Tip003. 간단한 명령을 추가해 보자.
+# TipX01. 간단한 명령을 추가해 보자.
 
 개인적으로 에디터들의 다양한 기능을 사랑한다. 그 중에 최고를 뽀으라면 단연 vi의 [점명령](http://daejinseok.github.io/2014/05/27/pvim-101-tip1-meet_the_dot_command.html) 이라고 생각한다. 그 다음은 많은 에디터에서 지원하는 [스니핏](http://daejinseok.github.io/2014/06/01/subl-snippet.html) 정도 이다.
 
