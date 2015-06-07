@@ -1,1 +1,1 @@
-Sublime Text를 사용하면서 생각나는 Tip 대충 작성하는 페이지입니다.
+Sublime Text를 사용하면서 생각나는 Tip을 대충 작성하는 페이지입니다.
