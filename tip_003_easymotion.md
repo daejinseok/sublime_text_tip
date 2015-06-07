@@ -8,10 +8,10 @@
 
 설정된 단축키(Win/Linux Ctrl+;  OSX Cmd+; )
 
-| OS      | 단축키   |
-----------------------
+|    OS   | 단축키   |
+|---------|----------|
 |Win/Linux| Ctrl + ; |
-|OSX      | Cmd + ;  |
+|   OSX   | Cmd + ;  |
 
 
 ![](tip_003\002.png)
