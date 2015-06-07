@@ -57,7 +57,7 @@ a,b,c,d...로 변경되는 문자를 아래와 같이 설정을 추가하면 다
 "placeholder_chars" : "jkl;asdfHGJKL:ASDFHG"
 ```
 
-## Vintage모드를 사용한다면 f를 변경하세요.
+## Vintage모드를 사용한다면 f, F기능 변경을 고려해 보세요.
 Vintage모드를 사용하신다면 f, F를 얼마나 잘 사용하는지 생각 후, 혹은 f, F가 무슨 기능인지 모른신다구요. 축하합니다. 저는 알지만 거이 사용하지 않습니다. 저보다 시간 낭비를 덜 하신 것 같네요. EasyMotion으로 변경을 고려해 보세요.
 
 Data\Packages\User\Default.sublime-keymap에 아래 내용을 추가하면 f, F를의 기능을 무시하고 EasyMotion를 사용할 수 있습니다. ( 파일이 없다면 새로 만들어야 합니다.)
