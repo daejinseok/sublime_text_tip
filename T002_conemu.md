@@ -1,8 +1,8 @@
-# Tip002. ConEmu에 DOSKEY 매크로 설정하기
+# Tip 002. ConEmu에 DOSKEY 매크로 설정하기
 
 ## ConEmu
 
-요즘 Windows Command Line사용에 있어 가장 사랑받는 프로그램이 ConEmu라고 생각한다. 아직 ConEmu를 사용해 보지 않았다며 꼭 사용해 보기 바란다.
+요즘 Windows Command Line 사용에 있어 가장 사랑받는 프로그램이 ConEmu라고 생각한다. 아직 ConEmu를 사용해 보지 않았다며 꼭 사용해 보기 바란다.
 
 https://code.google.com/p/conemu-maximus5/
 
