@@ -57,21 +57,10 @@ a,b,c,d...로 변경되는 문자를 아래와 같이 설정을 추가하면 다
 "placeholder_chars" : "jkl;asdfHGJKL:ASDFHG"
 ```
 
+## Vintage모드를 사용한다면 f를 변경하세요.
+Vintage모드를 사용하신다면 f, F를 얼마나 잘 사용하는지 생각 후, 혹은 f, F가 무슨 기능인지 모른신다구요. 축하합니다. 저는 알지만 거이 사용하지 않습니다. 저보다 시간 낭비를 덜 하신 것 같네요. EasyMotion으로 변경을 고려해 보세요.
 
-끝. 메르스 조심하세요.
-
----
-
-#### 나의 sublime text
-
-제가 sublime text에 빠져있을 때, 같은 사무실에 계시던 유차장님은 emacs에 빠져있었습니다. 그 때 저에게 sublime text에서는 이런 것 되냐며 자랑하던 것이 EasyMotion의 emacs버전인 AceJump였습니다. 불행히 그 때는 sublime text 3 갓 나온 상태라 EasyMotion이 2에서만 동작하고 3에서는 동작하지 않았는데, 2014년도에 4월에 추가되었네요.
-
-EasyMotion가 3에서 너무 사용하고 싶어, 플러그인을 분석했던 것이 sublime text를 더욱 자세히 알게된 계기가 된 것 같네요.
-
-#### Vintage모드를 사용한다면 f를 변경하세요.
-Vintage모드를 사용하신다면 f를 아래와 같이 변경하여 EasyMotion를 사용할 수 있습니다.
-
-Data\Packages\User\Default.sublime-keymap 아래와 같이 추가하세요. ( 파일이 없다면 새로 만들어야 합니다.)
+Data\Packages\User\Default.sublime-keymap에 아래 내용을 추가하면 f, F를의 기능을 무시하고 EasyMotion를 사용할 수 있습니다. ( 파일이 없다면 새로 만들어야 합니다.)
 
 ```json
 [
@@ -92,3 +81,17 @@ Data\Packages\User\Default.sublime-keymap 아래와 같이 추가하세요. ( �
     ...
 ]
 ```
+
+
+끝. 메르스 조심하세요.
+
+---
+
+#### 나의 sublime text
+
+제가 sublime text에 빠져있을 때, 같은 사무실에 계시던 유차장님은 emacs에 빠져있었습니다. 그 때 저에게 sublime text에서는 이런 것 되냐며 자랑하던 것이 EasyMotion의 emacs버전인 AceJump였습니다. 불행히 그 때는 sublime text 3 갓 나온 상태라 EasyMotion이 2에서만 동작하고 3에서는 동작하지 않았는데, 2014년도에 4월에 추가되었네요. 
+
+감사합니다. tednaleid
+
+그 후로 3에서 EasyMotion를 너무 사용하고 싶어, 플러그인을 분석했던 것이 sublime text를 더욱 자세히 알게된 계기가 된 것 같네요.
+
