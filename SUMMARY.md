@@ -10,4 +10,5 @@
    * [Tip 004. log_commands(True)](tip_004_logcommands_true.md)
    * [Tip 005. Syntax](tip_005_syntax.md)
    * [Tip 005. 명령 추가하기](tip_005_add_command.md)
+   * Tip. 005. from pydoc import help
 
