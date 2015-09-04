@@ -14,7 +14,8 @@ ConEmu의 설정에서 Startup부분을 살펴보면 보통 아래와 같이 되
 cmd.exe /k %ConEmuBaseDir%\CmdInit.cmd
 ```
 
-즉 매번 수행되어야 할 초기 작업이 있다면 CmdInit.cmd에 추가하면 된다.
+매번 수행되어야 할 초기 작업이 있다면 CmdInit.cmd에 넣으면 됩니다. 단! CmdInit.cmd는 ConEmu업데이트 시 초기화 되어 버립니다. 따라서 CmdInit.cmd를 다른 이름으로 복사하고 그것을 설정에 추가하시면 됩니다.
+ 
 
 ## DOSKEY 매크로 추가
 
